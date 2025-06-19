@@ -1,49 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Mini Project</title>
+  <title>Login Page</title>
 </head>
 <body>
 
-  <h2 align="center">Mini Project</h2>
+  <h2 align="center">Log in</h2>
 
-  <table align="center" border="1" cellpadding="15" cellspacing="0" bgcolor="#f2f2f2" width="400">
-    <tr>
-      <td colspan="2" align="center">
-        <h2>Log in</h2>
-      </td>
-    </tr>
+  <form>
+    <table align="center">
+      <tr>
+        <td>Username:</td>
+        <td><input type="text" name="username"></td>
+      </tr>
+      <tr><td colspan="2"><br></td></tr>
+      <tr>
+        <td>Password:</td>
+        <td><input type="password" name="password"></td>
+      </tr>
+      <tr><td colspan="2"><br></td></tr>
+      <tr>
+        <td colspan="2" align="center">
+          <input type="submit" value="Log in">
+        </td>
+      </tr>
+      <tr><td colspan="2"><br></td></tr>
+      <tr>
+        <td>
+          <input type="checkbox" name="remember"> Remember me
+        </td>
+        <td align="right">
+          <a href="#">Forgot Password?</a>
+        </td>
+      </tr>
+    </table>
+  </form>
 
-    <tr>
-      <td><b>Username:</b></td>
-      <td><input type="text" name="username" size="30"></td>
-    </tr>
-
-    <tr>
-      <td><b>Password:</b></td>
-     <td> <input type="password">  value = ""</td>
-    </tr>
-
-    <tr>
-      <td colspan="2" align="center">
-        <input type="submit" value="Log in" style="width: 100px; height: 30px;">
-      </td>
-    </tr>
-
-    <tr>
-      <td colspan="2" align="center">
-        <input type="checkbox"> Remember me
-        &nbsp;&nbsp;
-        <a href="#">Forgot Password?</a>
-      </td>
-    </tr>
-
-    <tr>
-      <td colspan="2" align="center">
-        <a href="#">Create an Account</a>
-      </td>
-    </tr>
-  </table>
+  <p align="center">
+    <a href="#">Create an Account</a>
+  </p>
 
 </body>
 </html>
